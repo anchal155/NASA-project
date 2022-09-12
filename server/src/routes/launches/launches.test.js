@@ -7,7 +7,7 @@ describe('Testing launches API', () =>{
     
     beforeAll(async() =>{
         await mongoConnect();
-        //await loadPlanetsData();
+        await loadPlanetsData();
     });
 
     afterAll(async() => {
